@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "timestamp": "2025-01-06T00:00:00Z",
+      "contributor": "Claude Code",
+      "type": "feat",
+      "summary": "プロジェクト初期セットアップ",
+      "description": "Expo 2025協働制作サイトの初期構築。React + TypeScript + Tailwind CSSの環境構築",
+      "files": [
+        "package.json",
+        "tsconfig.json",
+        "tailwind.config.js",
+        "src/App.tsx",
+        "src/components/*"
+      ],
+      "commit": null
+    },
+    {
+      "timestamp": "2025-01-06T00:15:00Z",
+      "contributor": "Claude Code",
+      "type": "docs",
+      "summary": "CLAUDE.mdガイドライン作成",
+      "description": "AI協働開発のためのガイドラインとルールを定義",
+      "files": [
+        "CLAUDE.md"
+      ],
+      "commit": null
+    },
+    {
+      "timestamp": "2025-01-06T00:20:00Z",
+      "contributor": "Claude Code",
+      "type": "feat",
+      "summary": "履歴管理システムの実装",
+      "description": "contributions.jsonによる開発履歴の自動記録システムを構築",
+      "files": [
+        "contributions.json"
+      ],
+      "commit": null
+    }
+  ],
+  "metadata": {
+    "project": "Expo 2025 Collaborative Site",
+    "startDate": "2025-01-06",
+    "totalContributions": 3,
+    "aiTools": ["Claude Code", "Codex"],
+    "humanContributors": []
+  }
+}
