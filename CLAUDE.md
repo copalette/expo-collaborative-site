@@ -35,7 +35,7 @@
 - コミットハッシュ（該当する場合）
 
 #### 記録場所
-- `src/data/contributions.json`: 機械読み取り可能な形式
+- `contributions.json`: 機械読み取り可能な形式
 - README.md: 最新5件の履歴を表示
 - Webページ: リアルタイムで履歴を表示
 
