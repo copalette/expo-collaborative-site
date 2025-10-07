@@ -15,6 +15,7 @@ import RecipeManager from './pages/RecipeManager';
 import SchoolYear from './pages/SchoolYear';
 import JobHunting from './pages/JobHunting';
 import ExpoTips from './pages/ExpoTips';
+import BingoVerifier from './pages/BingoVerifier';
 
 type NavItem = {
   path: string;
@@ -34,6 +35,7 @@ const NAV_ITEMS: NavItem[] = [
   { path: '/expo-ring-counter', label: 'リング周回', icon: '🏃‍♂️', accentClass: 'hover:bg-amber-100 hover:border-amber-300/70' },
   { path: '/expo-pedometer', label: '歩数計', icon: '🚶‍♀️', accentClass: 'hover:bg-sky-100 hover:border-sky-300/70' },
   { path: '/expo-tips', label: '攻略チップ', icon: '🧭', accentClass: 'hover:bg-indigo-100 hover:border-indigo-300/70' },
+  { path: '/bingo-verifier', label: 'ビンゴ検証', icon: '🧾', accentClass: 'hover:bg-emerald-100 hover:border-emerald-300/70' },
   { path: '/mountain-game', label: '登山ゲーム', icon: '⛰️', accentClass: 'hover:bg-emerald-100 hover:border-emerald-300/70' },
   { path: '/station-guide', label: '駅案内', icon: '🚉', accentClass: 'hover:bg-indigo-100 hover:border-indigo-300/70' },
   { path: '/browsing-history', label: '閲覧履歴', icon: '📊', accentClass: 'hover:bg-purple-100 hover:border-purple-300/70' },
@@ -176,6 +178,7 @@ function App() {
             <Route path="/expo-ring-counter" element={<ExpoRingCounter />} />
             <Route path="/expo-pedometer" element={<ExpoPedometer />} />
             <Route path="/expo-tips" element={<ExpoTips />} />
+            <Route path="/bingo-verifier" element={<BingoVerifier />} />
             <Route path="/mountain-game" element={<MountainGame />} />
             <Route path="/station-guide" element={<StationGuide />} />
             <Route path="/browsing-history" element={<BrowsingHistory />} />
