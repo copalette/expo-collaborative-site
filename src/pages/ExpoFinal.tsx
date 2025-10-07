@@ -451,6 +451,97 @@ const ExpoFinal: React.FC = () => {
           </div>
         )}
 
+        {/* 万博終了後の情報 */}
+        <div className="mt-12 bg-white rounded-lg shadow-lg p-8">
+          <h2 className="text-3xl font-bold text-center mb-8 text-purple-700">
+            🌟 万博終了後のお楽しみ
+          </h2>
+          
+          {/* 更地化スケジュール */}
+          <div className="mb-8 p-6 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-lg">
+            <h3 className="text-2xl font-bold mb-4 text-blue-800">
+              📅 万博会場の更地化スケジュール
+            </h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-white p-4 rounded-lg shadow">
+                <h4 className="font-bold text-lg mb-2 text-gray-800">撤去フェーズ 1</h4>
+                <p className="text-sm text-gray-600 mb-2">2025年5月 - 8月</p>
+                <p className="text-gray-700">
+                  展示施設とパビリオンの解体・撤去作業。この期間は一般の立ち入りは制限されます。
+                </p>
+              </div>
+              <div className="bg-white p-4 rounded-lg shadow">
+                <h4 className="font-bold text-lg mb-2 text-gray-800">撤去フェーズ 2</h4>
+                <p className="text-sm text-gray-600 mb-2">2025年9月 - 12月</p>
+                <p className="text-gray-700">
+                  インフラ設備の撤去と地盤整備。一部エリアでは見学ツアーが実施される予定です。
+                </p>
+              </div>
+              <div className="bg-white p-4 rounded-lg shadow">
+                <h4 className="font-bold text-lg mb-2 text-gray-800">整備完了</h4>
+                <p className="text-sm text-gray-600 mb-2">2026年3月</p>
+                <p className="text-gray-700">
+                  完全な更地化完了。跡地利用計画に基づいた新たな開発がスタートします。
+                </p>
+              </div>
+              <div className="bg-white p-4 rounded-lg shadow">
+                <h4 className="font-bold text-lg mb-2 text-gray-800">レガシー活用</h4>
+                <p className="text-sm text-gray-600 mb-2">2026年4月以降</p>
+                <p className="text-gray-700">
+                  万博のレガシーを活用した新しい施設やパークの建設が始まります。
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* 万博終了後でも楽しめる施設 */}
+          <div className="p-6 bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg">
+            <h3 className="text-2xl font-bold mb-4 text-green-800">
+              🎡 万博終了後でも楽しめるソリューション
+            </h3>
+            <p className="text-lg mb-6 text-gray-700">
+              予約が取れなかった方、万博を逃した方へ！終了後でも万博の魅力を体験できる方法をご提案します。
+            </p>
+            
+            <div className="grid md:grid-cols-3 gap-4 mb-6">
+              <div className="bg-white p-4 rounded-lg shadow">
+                <div className="text-2xl mb-2">🏛️</div>
+                <h4 className="font-bold mb-2">万博記念館</h4>
+                <p className="text-sm text-gray-600">
+                  万博の歴史と展示品を常設展示。VRで当時の体験を再現。
+                </p>
+                <p className="text-xs text-green-600 mt-2">2025年10月開館予定</p>
+              </div>
+              
+              <div className="bg-white p-4 rounded-lg shadow">
+                <div className="text-2xl mb-2">🌐</div>
+                <h4 className="font-bold mb-2">バーチャル万博</h4>
+                <p className="text-sm text-gray-600">
+                  オンラインで全パビリオンを再現。自宅から万博体験が可能。
+                </p>
+                <p className="text-xs text-green-600 mt-2">2025年12月サービス開始</p>
+              </div>
+              
+              <div className="bg-white p-4 rounded-lg shadow">
+                <div className="text-2xl mb-2">🎪</div>
+                <h4 className="font-bold mb-2">移動展示</h4>
+                <p className="text-sm text-gray-600">
+                  人気パビリオンの巡回展示が全国各地で開催予定。
+                </p>
+                <p className="text-xs text-green-600 mt-2">2026年春開始予定</p>
+              </div>
+            </div>
+
+            <div className="bg-amber-50 p-4 rounded-lg border-l-4 border-amber-400">
+              <h4 className="font-bold text-amber-800 mb-2">💡 特別おすすめ</h4>
+              <p className="text-sm text-amber-700">
+                万博終了記念の特別イベントや、関西圏の万博関連施設巡りツアーも企画中！
+                最新情報はこのサイトで随時更新いたします。
+              </p>
+            </div>
+          </div>
+        </div>
+
         <footer className="mt-12 text-center text-gray-500">
           <p>万博ラストウィーク管理システム</p>
           <p className="mt-2">最後まで全力で！ 💪</p>
